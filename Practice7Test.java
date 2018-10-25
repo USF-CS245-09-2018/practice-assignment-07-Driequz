@@ -109,6 +109,7 @@ public class Practice7Test {
 				}
 			}
 		} catch (Exception e) {
+			System.out.println(e);
 			return Long.MAX_VALUE;
 		}
 		return System.currentTimeMillis() - start;
